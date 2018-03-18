@@ -1,0 +1,342 @@
+Program state 3
+Stack:
+	v=10;new(v,20);new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+
+Program state 3
+Stack:
+	v=10;new(v,20);new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 3
+Stack:
+	v=10
+	new(v,20);new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 3
+Stack:
+	v=10
+	new(v,20);new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 3
+Stack:
+	new(v,20);new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->10
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 3
+Stack:
+	new(v,20);new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->10
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 3
+Stack:
+	new(v,20)
+	new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->10
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 3
+Stack:
+	new(v,20)
+	new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->10
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 3
+Stack:
+	new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	
+Program state 3
+Stack:
+	new(a,22);writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	
+Program state 3
+Stack:
+	new(a,22)
+	writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	
+Program state 3
+Stack:
+	new(a,22)
+	writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	
+Program state 3
+Stack:
+	writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->22
+	
+Program state 3
+Stack:
+	writeHeap(a,30);print(a);print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->22
+	
+Program state 3
+Stack:
+	writeHeap(a,30)
+	print(a);print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->22
+	
+Program state 3
+Stack:
+	writeHeap(a,30)
+	print(a);print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->22
+	
+Program state 3
+Stack:
+	print(a);print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	
+Program state 3
+Stack:
+	print(a);print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	
+Program state 3
+Stack:
+	print(a)
+	print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	
+Program state 3
+Stack:
+	print(a)
+	print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	
+Program state 3
+Stack:
+	print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	2   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	
+Program state 3
+Stack:
+	print(readHash(a))
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	2   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	
+Program state 3
+Stack:
+	
+Symbol Table:
+	a->2
+	v->1
+	
+Output:
+	2   30   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	

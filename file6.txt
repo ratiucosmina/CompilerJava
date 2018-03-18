@@ -1,0 +1,407 @@
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(1)} );fork( {fork( {skip()} );print(2)} );print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(1)} );fork( {fork( {skip()} );print(2)} );print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(1)} )
+	fork( {fork( {skip()} );print(2)} );print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(1)} )
+	fork( {fork( {skip()} );print(2)} );print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(2)} );print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70
+Stack:
+	fork( {skip()} );print(1)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(2)} );print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70
+Stack:
+	fork( {skip()} );print(1)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(2)} )
+	print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70
+Stack:
+	fork( {skip()} )
+	print(1)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	fork( {fork( {skip()} );print(2)} )
+	print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70
+Stack:
+	fork( {skip()} )
+	print(1)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70
+Stack:
+	print(1)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 700
+Stack:
+	fork( {skip()} );print(2)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 7000
+Stack:
+	skip()
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	print(3)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70
+Stack:
+	print(1)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 700
+Stack:
+	fork( {skip()} );print(2)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 7000
+Stack:
+	skip()
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 6
+Stack:
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70
+Stack:
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 700
+Stack:
+	fork( {skip()} )
+	print(2)
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 7000
+Stack:
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 700
+Stack:
+	fork( {skip()} )
+	print(2)
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 700
+Stack:
+	print(2)
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70000
+Stack:
+	skip()
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 700
+Stack:
+	print(2)
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70000
+Stack:
+	skip()
+	
+Symbol Table:
+	
+Output:
+	1   3   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 700
+Stack:
+	
+Symbol Table:
+	
+Output:
+	1   3   2   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 70000
+Stack:
+	
+Symbol Table:
+	
+Output:
+	1   3   2   
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 

@@ -1,0 +1,229 @@
+Program state 2
+Stack:
+	v=1;if(v) then{ v=2;print(v) } else{ print(v)};print(2)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+
+Program state 2
+Stack:
+	v=1;if(v) then{ v=2;print(v) } else{ print(v)};print(2)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	v=1
+	if(v) then{ v=2;print(v) } else{ print(v)};print(2)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	v=1
+	if(v) then{ v=2;print(v) } else{ print(v)};print(2)
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	if(v) then{ v=2;print(v) } else{ print(v)};print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	if(v) then{ v=2;print(v) } else{ print(v)};print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	if(v) then{ v=2;print(v) } else{ print(v)}
+	print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	if(v) then{ v=2;print(v) } else{ print(v)}
+	print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	v=2;print(v)
+	print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	v=2;print(v)
+	print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	v=2
+	print(v)
+	print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	v=2
+	print(v)
+	print(2)
+	
+Symbol Table:
+	v->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	print(v)
+	print(2)
+	
+Symbol Table:
+	v->2
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	print(v)
+	print(2)
+	
+Symbol Table:
+	v->2
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	print(2)
+	
+Symbol Table:
+	v->2
+	
+Output:
+	2   
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	print(2)
+	
+Symbol Table:
+	v->2
+	
+Output:
+	2   
+File Table:
+	
+Heap:
+	
+Program state 2
+Stack:
+	
+Symbol Table:
+	v->2
+	
+Output:
+	2   2   
+File Table:
+	
+Heap:
+	

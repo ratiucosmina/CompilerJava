@@ -1,0 +1,1359 @@
+Program state 7
+Stack:
+	new(v1,2);new(v2,3);new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+
+Program state 7
+Stack:
+	new(v1,2);new(v2,3);new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v1,2)
+	new(v2,3);new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v1,2)
+	new(v2,3);new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	
+Output:
+	
+File Table:
+	
+Heap:
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v2,3);new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v2,3);new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v2,3)
+	new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v2,3)
+	new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v3,4);newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v3,4)
+	newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	new(v3,4)
+	newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	newBarrier(cnt,readHash(v2));fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	newBarrier(cnt,readHash(v2))
+	fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	newBarrier(cnt,readHash(v2))
+	fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} );fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} )
+	fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))} )
+	fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 70
+Stack:
+	await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} );await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 70
+Stack:
+	await(cnt);writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} )
+	await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	fork( {await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))} )
+	await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [])
+	
+Program state 7
+Stack:
+	await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 700
+Stack:
+	await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 7
+Stack:
+	await(cnt);print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 700
+Stack:
+	await(cnt);writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 7
+Stack:
+	await(cnt)
+	print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 700
+Stack:
+	await(cnt)
+	writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 7
+Stack:
+	await(cnt)
+	print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 700
+Stack:
+	await(cnt)
+	writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70])
+	
+Program state 7
+Stack:
+	await(cnt)
+	print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	await(cnt)
+	writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 7
+Stack:
+	await(cnt)
+	print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	await(cnt)
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	await(cnt)
+	writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 7
+Stack:
+	print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 7
+Stack:
+	print(readHash(v3))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	writeHeap(v1,readHash(v1)*10);print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10);writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 7
+Stack:
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	writeHeap(v1,readHash(v1)*10)
+	print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10)
+	writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	writeHeap(v1,readHash(v1)*10)
+	print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10)
+	writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->2
+	2->3
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	print(readHash(v1))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10);print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 70
+Stack:
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   20   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10)
+	print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   20   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	writeHeap(v2,readHash(v2)*10)
+	print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   20   
+File Table:
+	
+Heap:
+	1->20
+	2->30
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   20   
+File Table:
+	
+Heap:
+	1->20
+	2->300
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	print(readHash(v2))
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   20   
+File Table:
+	
+Heap:
+	1->20
+	2->300
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
+Program state 700
+Stack:
+	
+Symbol Table:
+	cnt->0
+	v1->1
+	v2->2
+	v3->3
+	
+Output:
+	4   20   300   
+File Table:
+	
+Heap:
+	1->20
+	2->300
+	3->4
+	
+Cyclic Barrier: 0->(3, [70, 7, 700])
+	
